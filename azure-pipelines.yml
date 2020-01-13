@@ -17,3 +17,11 @@ steps:
     echo Hi Matthew.
     echo you need help!
   displayName: 'Run a multi-line script'
+
+- script: helloworld.sh
+  displayName: 'Run a one-line script'
+
+- task: Bash@3
+  inputs:
+    filePath: 'helloworld.sh'
+
