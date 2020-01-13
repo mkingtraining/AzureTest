@@ -18,8 +18,8 @@ steps:
     echo you need help!
   displayName: 'Run a multi-line script'
 
-- script: helloworld.sh
-  displayName: 'Run a one-line script'
+#- script: helloworld.sh
+#  displayName: 'Run a one-line script'
 
 - task: Bash@3
   inputs:
